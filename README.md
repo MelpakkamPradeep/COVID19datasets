@@ -1,5 +1,5 @@
-# COVID19datasets
-Source: WHO COVID Data
+# COVID19datasets (Source: WHO COVID Data)
+
 v1 dataset contains the cases for each country, along with whether the day is part of a "wave" (1) or not (0).
 v2 dataset contains the cases for each country over a week, with "wave" corresponding to T7 case data.
 v1.5 dataset contains the case data for each stretch of "wave" and "non-wave".
