@@ -44,7 +44,7 @@ from sklearn.metrics import make_scorer
 
 uploaded = files.upload()
 # Read dataset (.csv format)
-datafull = pd.read_csv(io.BytesIO(uploaded['COVID19_dataset_v4.csv']))
+datafull = pd.read_csv(io.BytesIO(uploaded['COWAVE.csv']))
 
 # Keep all features but Wave, Date and Country_code
 X_t = datafull.drop(columns=['Wave', 'Date', 'Country_code'])
