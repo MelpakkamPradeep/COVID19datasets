@@ -32,7 +32,7 @@ pd.set_option("expand_frame_repr", False) # print cols side by side as it's supp
 
 uploaded = files.upload()
 # Read dataset (.csv format)
-datafull = pd.read_csv(io.BytesIO(uploaded['COVID19_dataset_v4.csv']), na_filter=False)
+datafull = pd.read_csv(io.BytesIO(uploaded['COWAVE.csv']), na_filter=False)
 
 X_t = datafull.drop(columns=['Wave', 'Date'])
 y_t = datafull[['Wave']]
